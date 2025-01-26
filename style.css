@@ -1,0 +1,90 @@
+body {
+  margin: 0; /* Quitar márgenes para que ocupe toda la pantalla */
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  height: 100%; /* Asegura que el body ocupe toda la altura de la pantalla */
+  width: 100%; /* Asegura que el body ocupe todo el ancho de la pantalla */
+}
+
+
+.titulos {
+
+  margin-top: 160px;
+  margin-left: 50px;
+
+}
+
+
+.titulo {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 3rem;
+}
+
+
+.subtitulos {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 450px;
+  color: white;
+}
+
+.btn-explore-more {
+
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+
+
+.bloque-dos {
+  margin-top: 200px;
+  background-color: black;
+  padding-top: 50px;
+}
+
+.container-bloque-dos {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.subcontainer-uno {
+  width: 30%;
+}
+
+.titulo-subcontainer h2 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 2rem;
+}
+
+.div-subcontainer-uno {
+  margin-top: 140px;
+  width: 55%;
+  background-color: rgba(77, 77, 77, 0.664);
+  border-radius: 30px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  color: white;
+}
+
+.div-subcontainer-uno h3 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 1.5rem;
+}
