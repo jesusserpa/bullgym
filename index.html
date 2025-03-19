@@ -1,124 +1,347 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Potta+One&display=swap" rel="stylesheet">
-  </head>
-  <body>
 
-    <header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Potta+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
 
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><strong>BULL</strong></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto" href="#"><strong>BULLGYM</strong></a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link mx-lg-2" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link mx-lg-2" href="#">Membership</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link mx-lg-2" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#">Contact</a>
               </li>
             </ul>
-            
           </div>
         </div>
-      </nav>
+        <a href="#" class="login-button">Login</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
 
 
-    </header>
-
-    
+  </header>
 
 
-    <main>
-
-      <section class="bloque-uno">
 
 
-       <!-- <img src="/img/pexels-anush-1229356.jpg" alt="" class="img-gym"> -->
+  <main>
 
-        <div class="titulos">
+    <section class="bloque-uno">
 
-          <h1 class="titulo">YOUR FITNESS</h1>
-          <h1 class="titulo">JOURNEYS BEGIN HERE</h1>
-          
+
+      <!-- <img src="/img/pexels-anush-1229356.jpg" alt="" class="img-gym"> -->
+
+      <div class="titulos">
+
+        <h1 class="titulo-uno">YOUR FITNESS</h1>
+        <h1 class="titulo-dos">JOURNEYS BEGIN HERE</h1>
+
+      </div>
+
+      <div class="subtitulos">
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, sed, pariatur et fugiat accusantium
+          distinctio hic vel cupiditate laudantium illum, repudiandae error tempore dolore. Hic sit nemo aperiam ipsam
+          porro.</p>
+
+      </div>
+
+      <div class="btn-explore-more">
+
+        <button type="button" class="btn btn-secondary">Explore more <svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+            <path
+              d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+          </svg></button>
+
+
+      </div>
+
+
+
+
+    </section>
+
+
+
+
+    <section class="bloque-dos">
+
+      <div class="container-bloque-dos">
+
+        <div class="subcontainer-uno">
+
+          <br><br><br><br>
+
+          <div class="titulo-subcontainer">
+            <h2>PERSONAL TRAINING</h2>
+          </div>
+
+          <div class="div-subcontainer-uno">
+
+            <h3>WE OFFER</h3>
+
+            <br>
+
+            <p>Free trial sessions <br> for new members</p>
+
+            <br>
+
+            <button type="button" class="btn btn-light">Sign up <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+              </svg></button>
+
+          </div>
+
         </div>
 
-        <div class="subtitulos">
 
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, sed, pariatur et fugiat accusantium distinctio hic vel cupiditate laudantium illum, repudiandae error tempore dolore. Hic sit nemo aperiam ipsam porro.</p>
+        <div class="subcontainer-dos">
 
-        </div>
-
-        <div class="btn-explore-more">
-
-          <button type="button" class="btn btn-secondary">Explore more</button>
-
+          <img src="img/pexels-pixabay-416809.jpg" alt="">
 
         </div>
-       
 
 
 
-      </section>
+        <div class="subcontainer-tres">
 
+          <div class="trainers">
 
-
-
-      <section class="bloque-dos">
-
-        <div class="container-bloque-dos">
-
-          <div class="subcontainer-uno">
-
-            <br><br><br><br><br><br>
-
-            <div class="titulo-subcontainer">
-              <h2>PERSONAL TRAINING</h2>
-            </div>
-
-            <div class="div-subcontainer-uno">
-
-              <h3>WE OFFER</h3>
-
-              <br>
-
-              <p>Free trial sessions <br> for new members</p>
-
-              <br>
-
-              <button type="button" class="btn btn-secondary">Explore more</button>
+            <div class="num-trainers">
 
             </div>
 
           </div>
 
 
+          <br><br>
+
+          <p>
+            Our state-of-the-art facilities and expert trainers are here to help you achieve your fitness goals, no matter your starting point.
+          </p>
+
+          <br><br>
+
+          <button type="button" class="btn btn-secondary">Explore more <svg xmlns="http://www.w3.org/2000/svg"
+              width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+              <path
+                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+            </svg></button>
+
+
         </div>
 
+      </div>
 
+      <br><br><br>
+
+    </section>
+
+
+        <!-- Membership Plans -->
+        <section id="membership" class="py-5">
+          <div class="container">
+              <h2 class="text-center mb-5">FLEXIBLE MEMBERSHIP PLANS<br>TO SUIT YOUR LIFESTYLE</h2>
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="card">
+                          <div class="card-body">
+                              <h3 class="card-title">Basic</h3>
+                              <h4 class="price">$99<span>/month</span></h4>
+                              <ul class="list-unstyled">
+                                  <li>✓ Access to gym facilities</li>
+                                  <li>✓ Basic equipment usage</li>
+                                  <li>✓ Locker room access</li>
+                              </ul>
+                              <a href="#join" class="btn btn-primary w-100" id="boton">Join Now</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card featured">
+                          <div class="card-body">
+                              <h3 class="card-title">Premium</h3>
+                              <h4 class="price">$199<span>/month</span></h4>
+                              <ul class="list-unstyled">
+                                  <li>✓ All Basic features</li>
+                                  <li>✓ Personal trainer sessions</li>
+                                  <li>✓ Group classes included</li>
+                                  <li>✓ Nutrition consultation</li>
+                              </ul>
+                              <a href="#join" class="btn btn-primary w-100" id="btn-black">Join Now</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card">
+                          <div class="card-body">
+                              <h3 class="card-title">Family</h3>
+                              <h4 class="price">$299<span>/month</span></h4>
+                              <ul class="list-unstyled">
+                                  <li>✓ All Premium features</li>
+                                  <li>✓ Family member access</li>
+                                  <li>✓ Kids' fitness programs</li>
+                              </ul>
+                              <a href="#join" class="btn btn-primary w-100" id="boton">Join Now</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </section>
+  
+      <!-- Success Stories -->
+      <section id="success" class="py-5 text-white">
+          <div class="container">
+              <h2>SUCCESS STORIES</h2>
+              <div class="row mt-4">
+                  <div class="col-md-3 col-6">
+                      <div class="stat">
+                          <h3>6,154</h3>
+                          <p>Active Members</p>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-6">
+                      <div class="stat">
+                          <h3>350</h3>
+                          <p>Expert Trainers</p>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-6">
+                      <div class="stat">
+                          <h3>90%</h3>
+                          <p>Success Rate</p>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-6">
+                      <div class="stat">
+                          <h3>20%</h3>
+                          <p>Body Fat Reduced</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <!-- Newsletter -->
+      <section id="newsletter" class="py-5 bg-light">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <h2>SIGNUP OUR NEWSLETTER <br> TO GET UPDATE INFORMATION, INSIGHT OR NEWS</h2>
+                      <form class="mt-4">
+                          <div class="input-group">
+                              <input type="email" class="form-control" placeholder="Your email address">
+                              <button class="btn btn-primary" type="submit" id="btn-subs">Subscribe</button>
+                          </div>
+                      </form>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1180.1178577318121!2d-74.00748820415218!3d40.67740365602898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a8ab449ce55%3A0x14dff10b27258776!2sColumbia%20St%2C%20Brooklyn%2C%20NY%2C%20EE.%20UU.!5e1!3m2!1ses!2sco!4v1742258224471!5m2!1ses!2sco" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <!-- Footer -->
+      <footer class="bg-dark text-white py-4">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <h3 style="color: yellowgreen;"><strong>BULLGYM</strong></h3 style="color: yellowgreen;">
+                      <p>9464 Columbia Ave, New York<br>+1 (234) 567-8900<br>info@bull.fit</p>
+                  </div>
+                  <div class="col-md-2">
+                      <h5>Menu</h5>
+                      <ul class="list-unstyled">
+                          <li><a href="#home">Home</a></li>
+                          <li><a href="#about">About</a></li>
+                          <li><a href="#membership">Membership</a></li>
+                          <li><a href="#blog">Blog</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-2">
+                      <h5>Quick Links</h5>
+                      <ul class="list-unstyled">
+                          <li><a href="#pricing">Pricing</a></li>
+                          <li><a href="#terms">Terms</a></li>
+                          <li><a href="#privacy">Privacy Policy</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-4">
+                      <h5>Opening Hours</h5>
+                      <p>Every day: 6AM - 10PM</p>
+                      <div class="social-links mt-3">
+                          <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
+                          <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
+                          <a href="#" class="me-2"><i class="bi bi-instagram"></i></a>
+                          <a href="#"><i class="bi bi-youtube"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="row mt-4">
+                  <div class="col text-center">
+                      <p class="mb-0">Copyright © BULL - All rights reserved</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
 
 
 
 
-    </main>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+  </script>
+
+  <script  src="/main.js"></script>
+
+</body>
+
 </html>
