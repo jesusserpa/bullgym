@@ -1,7 +1,7 @@
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './style.css';
 
-
+// Navbar scroll effect
 window.addEventListener('scroll', () => {
   const navbar = document.querySelector('.navbar');
   if (window.scrollY > 50) {
@@ -11,7 +11,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
-
+// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -23,4 +23,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+
 
